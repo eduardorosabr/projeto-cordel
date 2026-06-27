@@ -56,21 +56,52 @@ header > p > a:hover{
 main{
     font-family: "Sriracha", cursive;
 }
+
 section p{
-    max-width: 520px;
+    max-width: 600px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 6vh;
+    font-size: 7vh;
 }
-.semfundo > p{
+section.semfundo  p{
+
     max-width: 600px;
     color: white;
+    background-color: rgba(22, 20, 20, 0.219);
+    border-radius: 15px;
 }
-#wp1{
+section#wp1{
+    box-shadow: inset 0px 4px 14px rgba(0, 0, 0, 0.397);
+    padding: 20px;
     background-image: url(pacote-d012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
-#wp2{
-     background-image: url(pacote-d012/imagens/background002.jpg);
+section#wp2{
+    box-shadow: inset 0px 4px 14px rgba(0, 0, 0, 0.548);
+    padding: 20px;
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    height: 20px;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
 }
