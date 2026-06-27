@@ -9,11 +9,6 @@
 }
 .sriracha-regular {
   font-family: "Sriracha", cursive;
-  font-weight: 700;
-  font-style: normal;
-}
-.sriracha-bolder {
-  font-family: "Sriracha", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -22,13 +17,14 @@
     padding: 0px;
     font-size: 1em;
 }
-html ,body{
+html, body{
     min-height: 100vh;
+
 }
 :root{
     --fonte1: Verdana, Tahoma, sans-serif;
     --fonte2: "Passion One", sans-serif;
-    --fonte3: "Sriracha", cursive;
+    --fonte3: "Sriracha", sans-serif;
 }
 header{
     text-align: center;
@@ -55,4 +51,26 @@ header p > a{
 }
 header > p > a:hover{
     text-decoration: underline;
+}
+/*Cabeçalho */
+main{
+    font-family: "Sriracha", cursive;
+}
+section p{
+    max-width: 520px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 6vh;
+}
+.semfundo > p{
+    max-width: 600px;
+    color: white;
+}
+#wp1{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+}
+#wp2{
+     background-image: url(pacote-d012/imagens/background002.jpg);
 }
